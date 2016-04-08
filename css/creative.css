@@ -8,6 +8,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 body {
@@ -469,6 +470,13 @@ contact{
 .row {
   padding-right: 0px;
   margin-right: 0px;
+}
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
 }
 body {
     webkit-tap-highlight-color: #222;
